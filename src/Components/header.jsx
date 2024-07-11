@@ -10,14 +10,13 @@ function Header(){
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav list_items">
+          <li className="nav-item">
+              <a className="nav-link list_items" aria-current="page" href="/">
+                <img src="logo.png" alt="" style={{ height:"60px", width:"70px"}} />
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link list_items" aria-current="page" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
             </li>
             
             {/* <li className="nav-item">

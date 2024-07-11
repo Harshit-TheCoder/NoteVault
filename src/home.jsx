@@ -2,13 +2,15 @@ import React from "react";
 import Header from "./Components/header";
 import Main from "./Components/main";
 import Links from "./Components/links";
+import ValidateModal from "./Components/validate_modal";
 function Home(){
     
     return(
         <div>
             <Header />
             <Main>
-                <center><h1 style={{ color:"white"}}>Document Links</h1></center>
+                <ValidateModal />
+                <center><h1 style={{ color:"white"}}>NOTE VAULT</h1></center>
                 <div>
                     <Links />
                 </div>
