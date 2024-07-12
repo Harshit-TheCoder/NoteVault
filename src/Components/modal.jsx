@@ -10,7 +10,7 @@ const Modals=({name, file})=>{
   const handleShow = () => setShow(true);
     return(
         <div style={{ height:"50px"}}>
-        <Button variant="primary" onClick={handleShow} >
+        <Button variant="primary" onClick={handleShow} style={{width:"200px", borderRadius:"50px", textAlign:"center"}} >
           {name}
         </Button>
   
@@ -20,14 +20,15 @@ const Modals=({name, file})=>{
           </Modal.Header>
           <Modal.Body>
             {/* <iframe id="file-frame" src={googleDocsViewer} frameBorder="0" style={{ width: '100%', height: '500px' }}></iframe> */}
-            <object
+            {/* <object
             data={file}
             type="application/pdf"
             width="100%"
-            height="500px"
+            height="800px"
           >
             <p>Your browser does not support PDFs. <a href={file}>Download the PDF</a>.</p>
-          </object>
+          </object> */}
+          <iframe src={file} width="100%" height="800px" allow="autoplay"></iframe>
 
             </Modal.Body>
           <Modal.Footer>
