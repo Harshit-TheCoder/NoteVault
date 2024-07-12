@@ -10,7 +10,16 @@ function Home(){
             <Header />
             <Main>
                 <ValidateModal />
-                <center><h1 style={{ color:"white", fontFamily:"cursive" , fontStyle:"italic"}}>NOTE VAULT</h1></center>
+                <div class='d-flex flex-row align-items-center justify-content-center gap-3' style={{width:"100%"}}>
+                    <div><h1 style={{ color:"white", fontFamily:"cursive" , fontStyle:"italic"}}>NOTES <span style={{color:"yellow"}}>VAULT</span></h1>
+                    </div>
+                    <div>
+                        <img src="/HARSHIT_LOGO[1].png" alt="" style={{ width:"100px", height:"100px", borderRadius:"100px"}}/>
+                    </div>
+                </div>
+                
+                
+                
                 <div>
                     <Links />
                 </div>
