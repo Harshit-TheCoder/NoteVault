@@ -19,7 +19,7 @@ const LangButton = ({ lang, files }) => {
 
   return (
     <div className="d-flex flex-column align-items-center mb-4">
-      <img src={langLogos[lang]} alt={`${lang} logo`} style={{ width: "100px", height: "100px" }} />
+      <img src={langLogos[lang]} alt={`${lang} logo`} style={{ width: "150px", height: "150px" }} />
       <DropdownButton id="dropdown-basic-button" title={lang} variant="secondary">
         {files.map(file => (
           <Dropdown.Item key={file.name} onClick={() => handleSelect(file)}>
