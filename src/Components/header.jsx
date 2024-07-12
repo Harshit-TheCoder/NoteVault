@@ -12,11 +12,11 @@ function Header(){
           <ul className="navbar-nav list_items">
           <li className="nav-item">
               <a className="nav-link list_items" aria-current="page" href="/">
-                <img src="logo.png" alt="" style={{ height:"60px", width:"70px"}} />
+                <img src="home1.png" alt="" style={{width:"60px", height:"60px"}} />
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link list_items" aria-current="page" href="/">Home</a>
+              <a className="nav-link list_items" aria-current="page" href="/" style={{marginTop:"20px"}}>Home</a>
             </li>
             
             {/* <li className="nav-item">

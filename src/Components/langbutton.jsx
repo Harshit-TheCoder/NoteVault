@@ -9,12 +9,12 @@ const LangButton = ({ lang, files }) => {
   const handleSelect = (file) => setSelectedFile(file);
 
   const langLogos = {
-    "C": "/c.png",
-    "C++": "/cpp.png",
-    "JAVA": "/java.png",
-    "WEB": "/web.png",
-    "PYTHON": "/python.png",
-    "ML": "/ml.png",
+    "C": "/c1.png",
+    "C++": "/cpp (2).png",
+    "JAVA": "/java (2).png",
+    "WEB": "/web (2).png",
+    "PYTHON": "/py.png",
+    "ML": "/ml (2).png",
   };
 
   return (

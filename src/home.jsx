@@ -10,7 +10,7 @@ function Home(){
             <Header />
             <Main>
                 <ValidateModal />
-                <center><h1 style={{ color:"white"}}>NOTE VAULT</h1></center>
+                <center><h1 style={{ color:"white", fontFamily:"cursive" , fontStyle:"italic"}}>NOTE VAULT</h1></center>
                 <div>
                     <Links />
                 </div>
